@@ -39,6 +39,7 @@ function RecipeCreate({ newRecipe }) {
                 placeholder="Name"
                 onChange={handleChange}
                 value={data.name}
+                required
               ></input>
             </td>
             <td>
@@ -49,6 +50,7 @@ function RecipeCreate({ newRecipe }) {
                 placeholder="Cuisine"
                 onChange={handleChange}
                 value={data.cuisine}
+                required
               ></input>
             </td>
             <td>
@@ -59,6 +61,7 @@ function RecipeCreate({ newRecipe }) {
                 placeholder="URL"
                 onChange={handleChange}
                 value={data.photo}
+                required
               ></input>
             </td>
             <td>
@@ -68,6 +71,7 @@ function RecipeCreate({ newRecipe }) {
                 placeholder="Ingredients"
                 onChange={handleChange}
                 value={data.ingredients}
+                required
               ></textarea>
             </td>
             <td>
@@ -77,6 +81,7 @@ function RecipeCreate({ newRecipe }) {
                 placeholder="Preparation"
                 onChange={handleChange}
                 value={data.preparation}
+                required
               ></textarea>
             </td>
             <td>
