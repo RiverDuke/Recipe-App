@@ -1,9 +1,8 @@
 # Recipe-App
-Robust React project allowing users to create flash cards to allow them to study. Ability to create/manipulate decks containing cards with a front and a back.
-Multiple pages with multiple Routes allowing for a fluid site.
+ React project allowing users to create recipes. Makes use of State across components allowing users to create and keep their recipes.
 ## Instalation
-* Fork/clone the reposatory
+* Fork/clone the repo
 * Npm Install
 * Npm start
 ## Notes
-Once decks/cards are deleted they cannot be recovered
+Once recipes are deleted they cannot be recovered
